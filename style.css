@@ -39,7 +39,7 @@ p {
     height: 50px;
 }
 
-a {
+.card-body a {
     color: orange;
 }
 
@@ -133,7 +133,6 @@ footer .rounded-circle:hover {
 
 .list-group > a:hover {
     color: #498b84;
-    text-decoration: none;
 }
 
 span {
@@ -157,4 +156,19 @@ footer .copyright {
     height: 144px;
     width: 144px;
     margin-top: -72px;
+}
+
+footer .btn-primary {
+    background: white;
+    color: #498b84;
+    border-color: #498b84;
+}
+
+footer .btn-primary:hover{
+    background: #498b84;
+    border-color: #498b84;
+}
+
+footer .btn-primary:hover a{
+    text-decoration: none;
 }
