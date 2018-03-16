@@ -14,15 +14,18 @@ p {
     font-family: 'Source Sans Pro', sans-serif;
 }
 
-.navbar {
-    box-shadow: 2px 2px 5px orange;
-    opacity: 0.9;
-    background: #fff;
+.carousel-wild-title {
+    font-size: 5em;
+    color: #f9a02e;
+    font-weight: bold;
+    text-shadow: -2px 2px 5px #000;
 }
 
-.navbar .nav-item {
-    font-size: 1.4rem;
-    padding-right: 20px;
+.carousel-wild-description {
+    font-size: 3.5em;
+    color: white;
+    font-weight: bold;
+    text-shadow: -2px 2px 5px #000;
 }
 
 .info-header {
